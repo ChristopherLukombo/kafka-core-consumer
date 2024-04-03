@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  kafka:
+    consumer:
+      group-id: default-spring-consumer
+      auto-offset-reset: earliest
+  jackson:
+    date-format: yyyy-MM-dd
+        
